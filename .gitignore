@@ -1,0 +1,69 @@
+# -----------------------------
+# Java & Maven
+# -----------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.tmp
+*.swp
+
+# Maven target directory
+/target/
+
+# Maven local repository
+.mvn/
+
+# Eclipse / IntelliJ IDEA / VS Code project files
+/.idea/
+/.project
+/.classpath
+/.settings/
+/.vscode/
+/out/
+/bin/
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Allure Results & Reports
+# -----------------------------
+allure-results/
+allure-report/
+
+# -----------------------------
+# Logs and Reports
+# -----------------------------
+logs/
+*.log
+test-output/
+surefire-reports/
+extent-reports/
+
+# -----------------------------
+# Environment / Config Files
+# -----------------------------
+*.properties.local
+*.env
+config/*.secret.properties
+
+# -----------------------------
+# Node-related (if any future scripts)
+# -----------------------------
+node_modules/
+package-lock.json
+
+# -----------------------------
+# Backup & Temporary
+# -----------------------------
+*.bak
+*.old
+*.orig
+*.tmp
+*.swp
