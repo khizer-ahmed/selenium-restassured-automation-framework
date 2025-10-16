@@ -30,7 +30,7 @@ allure --version
 
 ### 1. Clone or Unzip
 ```bash
-cd selenium-restassured-framework-v2
+cd selenium-restassured-automation-framework
 ```
 
 ### 2. Run Tests ()
